@@ -13,6 +13,7 @@ public class TestSchoolRecords {
         for (Person person : personList) {
             System.out.println(person.toString() + '\n');
         }
+        System.out.println("____________________________________________________________________");
 
         for (Person employee : returnEmployee(personList)) {
             System.out.println(employee.toString() + '\n');
